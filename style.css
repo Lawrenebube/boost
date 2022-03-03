@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.box {
+    justify-content: center;
+    margin: 12px auto;
+    width: 1200px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-right: 60px;
+    /* background: linear-gradient(146.37deg, #1090F3 11.21%, #00D2D2 87.06%); */
+    border-radius: 25px;
+    padding-bottom: 50px;
+    background-image: url(./Hero\ Background.png);
+}
+header {
+    display: flex;
+    justify-content: space-between;   
+}
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;    
+    letter-spacing: 0.015em;
+   position: absolute;
+    left: 200px;
+    top: 50px;
+    color: #FFFFFF;
+}
+.nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+}
+.nav a {
+    margin-left: 25px;
+    color: white;
+    margin-right: 25px;
+}
+.poly {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.try {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+.sign {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+#main {
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+}
+.write {
+    padding-top: 60px;
+}
+.best {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 10px;
+}
+#main h1 { 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'ss02' on, 'ss01' on;
+}
+.we {
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 32px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+#main a {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: white;
+    padding: 6px 18px;
+}
+#main img {
+   max-height: 430px;
+}
